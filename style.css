@@ -1,0 +1,52 @@
+/* Navigation Bar Styling */
+.nav-custom {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #343a40 !important;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* Add padding to the body to prevent content from being hidden behind the fixed nav bar */
+body {
+    padding-top: 5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-image: url('images/newyork.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    color: #495057;
+    line-height: 1.6;
+}
+
+/* New CSS to resize images */
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.avatar {
+    max-width: 200px;
+    height: auto;
+}
+
+.columbia-logo {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+/* ... rest of your existing CSS file content below ... */

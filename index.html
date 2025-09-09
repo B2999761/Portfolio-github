@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Portfolio Example</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-custom">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research-experience">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work-experience">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-1 col-md-3"></div>
+            <div class="col-12 col-sm-10 col-md-6 min-vh-100 d-flex flex-column parent-content">
+                <div class="card w-100 mb-4" data-aos="fade-up">
+                    <div class="card-body text-center">
+                        <img src="images/portrait.png" class="avatar rounded-circle" alt="Harissh A S profile picture">
+                        <h3 class="card-title mt-2">Harissh A S </h3>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <img src="images/columbia.png" alt="Columbia University logo" class="columbia-logo">
+                            <h5 class="card-title m-0">ML Researcher|Robotics Enthusiast|Data Driven Computational Analyst</h5>
+                        </div>
+                        <h2 class="m-0">__</h2>
+                        <p class="card-text">
+                                I am currently pursuing my Master’s in Electrical Engineering at Columbia University, specializing in data-driven computational analysis. My research passion lies in computer vision and I am eager to leverage artificial intelligence in robotics to develop safe, reliable, and robust autonomous systems.
+                        </p>
+                        <div class="d-flex justify-content-center gap-3 mt-4">
+                            <a type="button" href="https://github.com/B2999761" target="_blank" class="btn btn-dark">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                            <a type="button" href="https://www.linkedin.com/in/harissh-a-s/" target="_blank"
+                                class="btn btn-dark">
+                                <i class="bi bi-linkedin"></i> LinkedIn
+                            </a>
+                            <a type="button" href="https://www.youtube.com/@harisshanbarasan856" target="_blank"
+                                class="btn btn-dark">
+                                <i class="bi bi-youtube"></i> YouTube
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-100 mt-4 mb-4" data-aos="fade-up" id="research-experience">
+                    <div class="card-body">
+                        <div class="header-logo">
+                            <img src="images/Nitttr.png" alt="NITTTR logo" class="logo">
+                            <h4 class="card-title m-0">Research Experience</h4>
+                        </div>
+                        <hr>
+                        <h5 class="card-title">NITTTR</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">• Conducted research on brain tumor detection using medical imaging, applying deep learning models YOLOv8, UNet, and ResNet-50 for tumor classification and segmentation.</li>
+                            <li class="list-group-item">• Led supervised image processing for over 900 MRI scans, utilizing contrast enhancement, histogram equalization, and data augmentation to optimize input quality for machine learning.</li>
+                            <li class="list-group-item">• Produced analytical reports and obtained clinical validation from radiologists to initiate development of a deep learning model for early-stage diagnosis by 30%.</li>
+                            <li class="list-group-item">• Trained and evaluated multiple architectures on public datasets (e.g., BraTS, Figshare), achieving a peak accuracy of 92.4%, Dice coefficient of 0.87, and IoU score of 0.81.</li>
+                            <li class="list-group-item">• Benchmarked performance across traditional ML classifiers (SVM, Random Forest) using SIFT + BoVW features vs. deep CNNs, demonstrating a 15% improvement in F1-score with deep learning.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card w-100 mt-4 mb-4" data-aos="fade-up" id="work-experience">
+                    <div class="card-body">
+                        <div class="header-logo">
+                            <img src="images/tnega.png" alt="TNeGA logo" class="logo">
+                            <h4 class="card-title m-0">Work Experience</h4>
+                        </div>
+                        <hr>
+                        <h5 class="card-title">TNeGA</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">• Promoted to Senior Intern for exceptional performance in ML research & deployment.</li>
+                            <li class="list-group-item">• Led and mentored junior interns from Anna University across projects including pneumonia detection, retinal disease detection, myocardial scar identification, and satellite image crop classification.</li>
+                            <li class="list-group-item">• Designed and deployed a Cattle Identification System using a lightweight YOLO-NAS model for muzzle detection, storing embeddings in FAISS/Quadrant DBs, and achieving 83–90% accuracy in under 3 weeks.</li>
+                            <li class="list-group-item">• Automated processes with FastAPI services, improving scalability and real-world usability.</li>
+                            <li class="list-group-item">• Enhanced the Facial Recognition Attendance System (FRAS) by building preprocessing pipelines and improving model robustness.</li>
+                            <li class="list-group-item">• Developed and optimized Crop & Pest Detection models, localizing pests (Stemborer, Fall Armyworm, Leaffolder) and applying Segment Anything Model (SAM) for auto-annotations across 80 lakh images spanning 23 crops, achieving ~70% accuracy on real-time farmer-collected images.</li>
+                            <li class="list-group-item">• Represented TNeGA in NVIDIA & AWS AI conferences, engaged with government departments (WRD, GIS), and interacted with AI/ML startups, delivering detailed reports to senior officials.</li>
+                            <li class="list-group-item">• Volunteered at the TNeGA GIS Conference (attended by IAS, IPS, and Govt. officers), gaining exposure to high-level AI/ML applications in governance.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card w-100 mt-4 mb-4" data-aos="fade-up" id="projects">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Projects 💻</h4>
+                        <hr>
+                        <div class="mb-3">
+                            <h5 class="card-title">
+                                <b>Smart Irrigation System</b>
+                            </h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">• Objective of this project was to predict water intake on daily basis and monitoring its health condition.</li>
+                                <li class="list-group-item">• Created a smart agricultural system using a Raspberry Pi, MATLAB GUI, and various sensors. The system monitored weather patterns, soil moisture levels, and nutrient levels (NPK) to predict the water requirements of crops. Machine learning algorithms were employed to analyze the sensor data and provide accurate predictions for optimal irrigation.</li>
+                                <li class="list-group-item">• Used IoT concepts and communication protocols to send data from microcontroller to a database in cloud and used this data to model machine learning applications and gave recommendation for the amount of fertilizer to be added for efficient growth of plants.</li>
+                            </ul>
+                            <div class="mt-2">
+                                <span class="badge bg-secondary">Internet of Things (IoT)</span>
+                                <span class="badge bg-secondary">Time Series Analysis</span>
+                                <span class="badge bg-secondary">Wireless Technologies</span>
+                                <span class="badge bg-secondary">ZigBee</span>
+                                <span class="badge bg-secondary">XBee</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <h5 class="card-title">
+                                <b>Formula 1 Race Prediction</b>
+                            </h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">• Aim was to perform regression using machine learning techniques using the historical dataset.</li>
+                                <li class="list-group-item">• Utilized machine learning algorithms to predict Formula 1 race outcomes based on data from the official Formula 1 website. Employed Principal Component Analysis (PCA) for dimensionality reduction and Decision Trees, LSTMs, GRUs for supervised learning to train the model according to specific requirements and constraints.</li>
+                                <li class="list-group-item">• Performed dimensionality reduction on the data and modeled machine learning models like logistic regression, random forest and deep learning models for better performance with 80 percent accuracy.</li>
+                            </ul>
+                            <div class="mt-2">
+                                <span class="badge bg-secondary">Logistic Regression</span>
+                                <span class="badge bg-secondary">Deep Learning</span>
+                                <span class="badge class="badge bg-secondary">Machine Learning</span>
+                                <span class="badge bg-secondary">Data Visualization</span>
+                                <span class="badge bg-secondary">Time Series Analysis</span>
+                                <span class="badge bg-secondary">Long Short-term Memory (LSTM)</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <h5 class="card-title">
+                                <b>Deep Learning Model for Semantic Segmentation of Satellite Images</b>
+                            </h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">• Aimed to provide insight on building height and area estimation using satellite and aerial imagery for detecting building setback.</li>
+                                <li class="list-group-item">• Built a UNet-based semantic segmentation model for satellite images and deployed it on Hugging Face with a Gradio UI for user interaction. This enabled users to upload satellite images and view the generated segmented maps directly.</li>
+                                <li class="list-group-item">• Performed segmentation using deep learning model and quantified the dimensions of the buildings.</li>
+                            </ul>
+                            <div class="mt-2">
+                                <span class="badge bg-secondary">Deep Learning</span>
+                                <span class="badge bg-secondary">data preprocessing</span>
+                                <span class="badge bg-secondary">Image Processing</span>
+                                <span class="badge bg-secondary">Machine Learning</span>
+                                <span class="badge bg-secondary">Python (Programming Language)</span>
+                                <span class="badge bg-secondary">Flask</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-100 mt-4 mb-4" data-aos="fade-up" id="contact">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Contact</h4>
+                        <hr>
+                        <p class="card-text mb-2">
+                            <i class="bi bi-envelope-fill me-2"></i> <strong>Email:</strong> ha2771@columbia.edu
+                        </p>
+                        <p class="card-text mb-4">
+                            <i class="bi bi-telephone-fill me-2"></i> <strong>Phone:</strong> (332) 279-1951
+                        </p>
+                        <a href="https://calendly.com/hanbarasansudhamathi" target="_blank" class="btn btn-dark">
+    <i class="bi bi-calendar-check me-2"></i> Book an Appointment
+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-1 col-md-3"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
